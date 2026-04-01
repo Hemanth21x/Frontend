@@ -1,0 +1,231 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "largest",
+            "request": "launch",
+            "mainClass": "largest",
+            "projectName": "java_6221e8ef"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "MObilephonetest",
+            "request": "launch",
+            "mainClass": "MObilephonetest",
+            "projectName": "java_6221e8ef"
+        },
+        {
+            "type": "java",
+            "name": "calculator",
+            "request": "launch",
+            "mainClass": "calculator",
+            "projectName": "java_6221e8ef"
+        },
+        {
+            "type": "java",
+            "name": "clsobj",
+            "request": "launch",
+            "mainClass": "clsobj",
+            "projectName": "java_6221e8ef"
+        },
+        {
+            "type": "java",
+            "name": "cube",
+            "request": "launch",
+            "mainClass": "cube",
+            "projectName": "java_6221e8ef"
+        },
+        {
+            "type": "java",
+            "name": "datatype1",
+            "request": "launch",
+            "mainClass": "datatype1",
+            "projectName": "java_6221e8ef"
+        },
+        {
+            "type": "java",
+            "name": "demo",
+            "request": "launch",
+            "mainClass": "demo",
+            "projectName": "java_6221e8ef"
+        },
+        {
+            "type": "java",
+            "name": "even",
+            "request": "launch",
+            "mainClass": "even",
+            "projectName": "java_6221e8ef"
+        },
+        {
+            "type": "java",
+            "name": "ifelse",
+            "request": "launch",
+            "mainClass": "ifelse",
+            "projectName": "java_6221e8ef"
+        },
+        {
+            "type": "java",
+            "name": "leapyear",
+            "request": "launch",
+            "mainClass": "leapyear",
+            "projectName": "java_6221e8ef"
+        },
+        {
+            "type": "java",
+            "name": "logical1",
+            "request": "launch",
+            "mainClass": "logical1",
+            "projectName": "java_6221e8ef"
+        },
+        {
+            "type": "java",
+            "name": "logical2",
+            "request": "launch",
+            "mainClass": "logical2",
+            "projectName": "java_6221e8ef"
+        },
+        {
+            "type": "java",
+            "name": "multplication",
+            "request": "launch",
+            "mainClass": "multplication",
+            "projectName": "java_6221e8ef"
+        },
+        {
+            "type": "java",
+            "name": "narrowing",
+            "request": "launch",
+            "mainClass": "narrowing",
+            "projectName": "java_6221e8ef"
+        },
+        {
+            "type": "java",
+            "name": "palindrome",
+            "request": "launch",
+            "mainClass": "palindrome",
+            "projectName": "java_6221e8ef"
+        },
+        {
+            "type": "java",
+            "name": "postive",
+            "request": "launch",
+            "mainClass": "postive",
+            "projectName": "java_6221e8ef"
+        },
+        {
+            "type": "java",
+            "name": "reational1",
+            "request": "launch",
+            "mainClass": "reational1",
+            "projectName": "java_6221e8ef"
+        },
+        {
+            "type": "java",
+            "name": "relational2",
+            "request": "launch",
+            "mainClass": "relational2",
+            "projectName": "java_6221e8ef"
+        },
+        {
+            "type": "java",
+            "name": "stringcomparison",
+            "request": "launch",
+            "mainClass": "stringcomparison",
+            "projectName": "java_6221e8ef"
+        },
+        {
+            "type": "java",
+            "name": "student",
+            "request": "launch",
+            "mainClass": "student",
+            "projectName": "java_6221e8ef"
+        },
+        {
+            "type": "java",
+            "name": "temp",
+            "request": "launch",
+            "mainClass": "temp",
+            "projectName": "java_6221e8ef"
+        },
+        {
+            "type": "java",
+            "name": "toggled",
+            "request": "launch",
+            "mainClass": "toggled",
+            "projectName": "java_6221e8ef"
+        },
+        {
+            "type": "java",
+            "name": "typecon2",
+            "request": "launch",
+            "mainClass": "typecon2",
+            "projectName": "java_6221e8ef"
+        },
+        {
+            "type": "java",
+            "name": "typecon3",
+            "request": "launch",
+            "mainClass": "typecon3",
+            "projectName": "java_6221e8ef"
+        },
+        {
+            "type": "java",
+            "name": "typecon4",
+            "request": "launch",
+            "mainClass": "typecon4",
+            "projectName": "java_6221e8ef"
+        },
+        {
+            "type": "java",
+            "name": "var4",
+            "request": "launch",
+            "mainClass": "var4",
+            "projectName": "java_6221e8ef"
+        },
+        {
+            "type": "java",
+            "name": "var5",
+            "request": "launch",
+            "mainClass": "var5",
+            "projectName": "java_6221e8ef"
+        },
+        {
+            "type": "java",
+            "name": "variable2",
+            "request": "launch",
+            "mainClass": "variable2",
+            "projectName": "java_6221e8ef"
+        },
+        {
+            "type": "java",
+            "name": "variable3",
+            "request": "launch",
+            "mainClass": "variable3",
+            "projectName": "java_6221e8ef"
+        },
+        {
+            "type": "java",
+            "name": "variables1",
+            "request": "launch",
+            "mainClass": "variables1",
+            "projectName": "java_6221e8ef"
+        },
+        {
+            "type": "java",
+            "name": "wideing",
+            "request": "launch",
+            "mainClass": "wideing",
+            "projectName": "java_6221e8ef"
+        }
+    ]
+}

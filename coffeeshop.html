@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoffeeZone</title>
+    <style>
+        header{
+            display: flex;
+            justify-content:space-between;
+            align-items:center;
+            padding:20px; 
+            background:#222;
+            color:white;
+
+        }
+
+        nav a{
+            color: white;
+            margin-left:20px;   
+        }
+
+        nav a:hover{
+            color: orange;
+            
+        }
+
+        .hero{
+            height: 300px;
+            background-image:url("https://www.nescafe.com/gb/sites/default/files/2023-11/Untitled-5%20copy_6.jpg");
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items:center;
+            padding-left:80px;
+            color:rgb(193, 246, 17);
+
+        }
+
+        .hero h1{
+            font-size:60px;
+
+        }
+        .hero p{
+            color: rgb(255, 255, 255);
+        }
+
+        .hero button{
+            background: orange;
+            padding: 10px 20px;
+            cursor: pointer;
+            border: none;
+            color: white;
+            margin-top: 10px;
+        }
+
+        .about{
+            display: flex;
+            padding: 80px;
+            gap: 40px;
+            background-color: #5d4e4e;
+        }
+
+        .about-text{
+            flex: 1;
+        }
+        .about-img{
+          flex: 1
+        }
+         .about img{
+            width:100%;
+            border-radius:10px;
+        }
+
+        .gallery{
+            padding: 80px;
+            text-align: center;
+            background-color: beige;
+        }
+        .gallery-grid{
+            display:grid;
+            grid-template-columns:repeat(3,1fr);
+            gap:20px;
+            margin-top:10px;
+        }
+        .gallery img{
+        width:100%;
+        border-radius:8px;
+        }
+        footer{
+        background:#222;
+        color:white;
+        text-align:center;
+        padding:20px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">CoffeeZone</div>
+        <nav>
+        <a href="">Home</a>
+        <a href="">Menu</a>
+        <a href="">Services</a>
+        <a href="">Contact Us</a>
+         </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h2>Outstanding</h2>
+            <h1>Coffee Shop</h1>
+
+            <p>
+            There are many variations of passages of
+            Lorem Ipsum available.
+            </p>
+
+        <button>Learn More</button>
+        </div>
+
+    </section>
+
+    <section class="about">
+        <div class="about-text">
+
+            <h2>ABOUT US</h2>
+
+            <p>
+            Full cleaning and housekeeping services
+            for companies and households.
+            </p>
+
+            <button>Read More</button>
+
+        </div>
+        <div class="about-image">
+
+            <img src="c:\Users\heman\Downloads\typing\coffee5.jpg">
+
+        </div>
+     </section>
+
+     <section class="gallery">
+
+<h2>Our Gallery</h2>
+
+<div class="gallery-grid">
+
+<img src="https://brewespressocoffee.com/wp-content/uploads/2022/08/espresso-shot.jpg">
+<img src="c:\Users\heman\Downloads\typing\coffee5.jpg">
+<img src="c:\Users\heman\Downloads\typing\coffee4.avif">
+<img src="https://brewespressocoffee.com/wp-content/uploads/2022/08/espresso-shot.jpg">
+<img src="c:\Users\heman\Downloads\typing\coffee5.jpg">
+<img src="c:\Users\heman\Downloads\typing\coffee4.avif">
+
+</div>
+
+</section>
+
+<footer>
+
+<p>
+© 2026 GrandCoffee. All Rights Reserved
+</p>
+
+</footer>
+
+
+    
+</body>
+</html>

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coffee website</title>
+</head>
+<style>
+     *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Arial, sans-serif;
+}
+     /* header */
+    header{
+    background: #4b2e2e;
+    color: white;
+    display:flex;
+    justify-content: space-between;
+    padding:15px 40px;
+    }
+
+    .logo{
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    nav a:hover{
+        text-decoration: underline;
+    }
+    /*shopname box*/
+
+    .box{
+        background:#e6d5c3;
+        text-align: center;
+        padding: 80px 20px;
+    }
+
+    .box h1{
+        font-size: 42px;
+        margin-bottom: 10px;
+    }
+
+    .box p{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .box button{
+            padding:12px 25px;
+            background:#6d4c41;
+            color:white;
+            border:none;
+            cursor:pointer;
+            font-size:16px;
+            border-radius:5px;
+    }
+
+.box button:hover{
+background:#4e342e;
+}
+
+
+    /* info boxes */
+    
+    .info{
+        display:flex;
+        justify-content:space-around;
+        padding:40px;
+        gap:20px; 
+        }
+
+    .info-box{
+        flex: 1;
+        background:#8e0d0d;
+        padding: 25px;
+        text-align: center;
+        border-radius: 8px;
+    }
+
+    .box h3{
+        margin-bottom: 10px;
+        font-size:20px;
+    }
+
+    .box p{
+        font-size:14px;
+        color: gray;
+    }
+    
+    /*bestcoffes*/
+
+    .best{
+        padding:40px;
+        text-align:center;
+     }
+
+     .coffee-grid{
+         margin-top:20px;
+         display:grid;
+         grid-template-columns:repeat(5,1fr);
+         gap:20px;
+        }
+    .coffee-item{
+        background:#f9f9f9;
+        padding:15px;
+        border-radius:6px;  
+        }
+    .coffee-img{
+        height:120px;
+        background:#ccc;
+        margin-bottom:10px;
+        }
+
+    /* events & promotions*/
+
+    .events{
+        padding:40px;
+        background:#efe6dd;
+        text-align:center;
+            }
+
+    .event-container{
+        display:flex;
+        gap:20px;
+        margin-top:20px;
+        }    
+    .event-box{
+        flex:1;
+        background:white;
+        padding:20px;
+        border-radius:6px;
+       }
+
+    /* footer*/
+       footer{
+        background:#4b2e2e;
+        color:white;
+        text-align:center;
+        padding:20px;
+        margin-top:30px;
+        }
+
+
+</style>
+<body>
+    <!--header-->
+    <header>
+    <div class="logo"> Coffee Zone</div>
+    <nav>
+        <a href="">Home</a>
+        <a href="">Menu</a>
+        <a href="">About</a>
+        <a href="">Contact</a>
+    </nav>
+    </header>
+
+    <!--shopname box-->
+    <section class="box">
+        <h1> Coffee Zone</h1>
+        <p>Welcome! enjoy the coffee MAWA BROSS</p><br>
+        <button>Explore Menu</menu></button>
+    </section>
+    
+    <!--inform boxes-->
+    <section class="info section">
+        <div class="info">
+         <h3>About us</h3>
+         <p>We serve freshly brewed coffe made from coffee beans.</p>
+        </div>
+
+        <div class="info">
+            <h3> Our Menu</h3>
+            <p>Explore variety of coffees,desserts,and pastries</p>
+        </div>
+        
+        <div class="info">
+            <h3> Special Offers</h3>
+            <p>Enjoy daily discounts</p>
+        </div>
+    </div>
+    </section>
+
+    <!--bestcoffee-->
+    <section class="best">
+        <h2>Our Best Coffees</h2>
+        <div class="coffee-grid">
+
+            <div class="coffe-item">
+                <div class="coffe-img"></div>
+                <p>Espresso</p>
+            </div>
+
+            <div class="coffe-item">
+                <div class="coffe-img"></div>
+                <p>Cappuccino</p>
+            </div>
+
+            <div class="coffe-item">
+                <div class="coffe-img"></div>
+                <p>Latte</p>
+            </div>
+
+            <div class="coffe-item">
+                <div class="coffe-img"></div>
+                <p>Mocha</p>
+            </div>
+            
+            <div class="coffe-item">
+                <div class="coffe-img"></div>
+                <p>Hot coffee</p>
+            </div>
+
+         </div>
+        </section>
+    
+    <!--events and promotions-->
+     <section class="events">
+
+       <h2>Events and promotions</h2>
+       <div class="event-container"> 
+
+        <div class="event-box">
+            <h3>Live Music Night</h3>
+            <p>Join us this saturday</p>
+        </div>
+
+        <div class="event-box">
+            <h3>Buy 1 Get 1 Free</h3>
+            <p>Every wednesday</p>
+        </div>
+
+        <div class="event-box">
+            <h3>New Seasonal Drinks</h3>
+            <p>Try it</p>
+        </div>
+        
+       </div>
+
+     </section>
+
+     <!--footer-->
+     <footer>
+        <p>@ 2026 Coffe Zone</p>
+        <P>4th road ,kphb</P>
+        <p>Email: info@coffeezone.com|Contact:+91 9398329975</p>
+     </footer>
+
+
+    
+</body>
+</html>
